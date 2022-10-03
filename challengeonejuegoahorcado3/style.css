@@ -1,0 +1,109 @@
+.logo {
+    width: 8%;
+    margin: 3% 0% 1px 0%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.principal {
+    width: 100%;
+    align: center;
+    background-color: palegreen;
+    display: inline-block;
+}
+.bienvenida {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+.canvas {
+    margin: 1% 0% 1% 22%;
+}
+.palabra {
+    margin: 0% 0% 0% 34%;
+    width: 60%;
+    display: none;
+}
+#nuevaPalabra {
+    margin: 0 auto;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    height: 433px;
+    padding: 1vw;
+    background-color: palegreen;
+    display: inline-block;
+}
+.botonera {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.boton1 {
+    width: 50%;
+    //display: inline-block;
+    display: flex;
+    //display: none;
+}
+.boton2 {
+    width: 50%;
+    //height: 50%;
+    //display: flex;
+    display: none;
+}
+.boton3 {
+    width: 50%;
+    //display: flex;
+    display: none;
+}
+.botones {
+    font-size: 12px;
+    width: 30%;
+    padding: 1.5%;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: inline-block;
+}
+/*
+#inicio {
+    //display: none;
+}
+#agregar {
+    //display: none;
+}
+#guardar {
+    //display: none;
+}
+#cancelar {
+    //display: none;
+}
+#nuevo {
+    //display: none;
+}
+#salir {
+    //display: none;
+}
+*/
+.foot {
+    font-size: 1em;
+    text-align: center;
+    margin: 10px auto;
+}
+p > a {
+    font-weight: bold;
+    text-decoration: none;
+}
+p > a:link {
+    color: green;
+}
+p > a:visited {
+    color: grey;
+}
+p > a:hover {
+    color: blue;
+}

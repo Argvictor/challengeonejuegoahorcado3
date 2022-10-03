@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html lang = "es">
+    <head><!-- -->
+      <title>Juego del Ahorcado</title>
+      <link rel = "icon" href = "Imagenes/logoALURA2.png"/>
+      <link rel = "stylesheet" href = "reset.css"/>
+      <link rel = "stylesheet" href = "style.css"/>
+      <meta charset = "utf-8"/>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>
+    </head>
+    <body>
+      <header>
+	<img class = "logo" src = "Imagenes/logoAlura.png" alt = "Logotipo de Alura"/>
+      </header>
+      <main class = "main">
+        <div class = "principal">
+	  <img class = "bienvenida" id = "bienvenida" src = "Imagenes/Bienvenida.png" alt = "te damos la bienvenida al juego"/>
+          <div class = "canvas" id = "canvas">
+            <canvas width= "750px" height= "432px"></canvas><!--  -->
+          </div>
+          <div class = "palabra" id = "palabra">
+	    <input id = "nuevaPalabra" placeholder = "Ingresa la nueva palabra!"/>
+          </div>
+	</div>
+	  <div class = "botonera">
+	    <div class = "boton1" id = "boton1">
+	      <button id = "inicio" class = "botones" onclick = "inicio()">Iniciar Juego</button>
+	      <button id = "agregar" class = "botones" onclick = "agregar()">Agregar Palabra</button>
+	    </div>
+	    <div class = "boton2" id = "boton2">
+	      <button id = "guardar" class = "botones" onclick = "guardar()">Guardar y Comenzar</button>
+	      <button id = "cancelar" class = "botones" onclick = "cancelar()">Cancelar</button>
+	    </div>
+	    <div class = "boton3" id = "boton3">
+	      <button id = "nuevo" class = "botones" onclick = "nuevo()">Juego Nuevo</button>
+	      <button id = "salir" class = "botones" onclick = "salir()">Salir del Juego</button>
+	    </div>
+	  </div>
+        
+	<script src = "script.js"></script>
+      </main>
+      <footer>
+	<p class = "foot">Para más contenido visita mi sitio en <a target = "_blank" href = https://github.com/Argvictor/All-my-proyects.git>Github</a></p>
+      </footer>
+    </body>
+  </html>
